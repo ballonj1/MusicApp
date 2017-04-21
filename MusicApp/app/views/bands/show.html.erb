@@ -1,0 +1,7 @@
+<h1><%= current_band.name %></h1>
+
+<% if bands_album %>
+  <% bands_album.each do |album| %>
+    <li><%= album.name %></li>
+  <% end %>
+<% end %>

@@ -1,0 +1,8 @@
+<h1>All Bands</h1>
+<%= link_to("Add Album", new_album_url) %>
+
+<br>
+<br>
+<% @bands.each do |band| %>
+<%= render band %>
+<% end %>
